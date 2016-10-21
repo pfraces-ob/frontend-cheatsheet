@@ -19,3 +19,5 @@ Current branch
 Specific branch
 
     git branch -m <oldname> <newname>
+
+Source: <http://stackoverflow.com/a/6591218/1815446>
