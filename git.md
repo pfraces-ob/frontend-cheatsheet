@@ -4,10 +4,24 @@ Git
 Merge one branch into another
 -----------------------------
 
-Merge A into B
+Merge FEAT into DEV
 
-    git checkout B
-    git merge A
+    git checkout DEV
+    git merge FEAT
+
+Merge FEAT into DEV (update branches from remotes)
+
+    git checkout FEAT
+    git pull
+    git checkout DEV
+    git pull
+    git merge FEAT
+
+Resolve conflicts
+
+    git mergetool
+    git commit
+    git push origin DEV
 
 Rename local branch
 -------------------
